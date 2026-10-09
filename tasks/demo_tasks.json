@@ -1,0 +1,11 @@
+{
+  "tasks": [
+    {
+      "id": "demo_sales_chart",
+      "description": "读取 data/sales.csv，计算总销售额，并生成柱状图保存到 output/sales_chart.png。",
+      "initial_tools": ["read_text_file", "write_text_file", "list_directory"],
+      "expected_generated_tools": ["parse_csv", "generate_bar_chart"],
+      "expected_artifacts": ["output/sales_chart.png"]
+    }
+  ]
+}

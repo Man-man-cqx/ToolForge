@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Environment / secrets
+.env
+
+# Databases & vector store
+*.db
+.chroma/
+
+# Generated artifacts (keep the folder, ignore contents)
+output/*
+!output/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
